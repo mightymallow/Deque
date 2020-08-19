@@ -1,0 +1,26 @@
+dgm117: valgrind --leak-check=full ./dqtest6
+==2041== Memcheck, a memory error detector
+==2041== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==2041== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==2041== Command: ./dqtest6
+==2041== 
+
+
+Deque Class Test Program 6 - START
+
+Size=1000
+
+
+Deque Class Test Program 6 - DONE
+
+==2041== 
+==2041== HEAP SUMMARY:
+==2041==     in use at exit: 0 bytes in 0 blocks
+==2041==   total heap usage: 1,001 allocs, 1,001 frees, 24,032 bytes allocated
+==2041== 
+==2041== All heap blocks were freed -- no leaks are possible
+==2041== 
+==2041== For counts of detected and suppressed errors, rerun with: -v
+==2041== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 8 from 6)
+dgm118: 
+
